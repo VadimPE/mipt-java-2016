@@ -49,7 +49,7 @@ public class MyCalculator implements Calculator {
 
             if (flag && expression.charAt(i) == ',') {
                 if (flagParam == true) {
-                    throw new ParsingException("Parsing exp");
+                    throw new ParsingException("Parsing exception");
                 }
                 flagParam = true;
             }
